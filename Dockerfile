@@ -6,6 +6,7 @@ ENV IPYNB_PROFILE "c3h3-dark"
 
 RUN mkdir demo_ipynbs
 ADD 20141129LiveDemo.ipynb /demo_ipynbs/20141129LiveDemo.ipynb 
+ADD 20141130LiveDemo.ipynb /demo_ipynbs/20141130LiveDemo.ipynb
 
 WORKDIR demo_ipynbs
 
